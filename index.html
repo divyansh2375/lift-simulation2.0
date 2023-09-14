@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lift Simulation -Divyansh Pratap Singh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="user-input h-full w-full">
+        <form class="input-form center gap-4">
+            <h1 class="font-color-primary" style="color: black; font-size: 70px;  ">Lift Simulation</h1>
+            <div class="grid-container">
+                <label class="input-label grid-item" for="numFloors">Number of floors:
+                </label>
+                <input placeholder="max 20 floors" type="number" class="inputs floor-input" />
+                <label class="input-label grid-item" for="numLifts">Number of lifts:
+                </label>
+                <input placeholder="max 5 lifts" type="number" class="inputs lift-input" />
+           </div>
+           <button class="btn simulate-btn" type="submit">Simulate</button>
+        </form>
+    </div>
+    <div class="simulated-lifts"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+<!--  -->
